@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .total-seats {
+    margin-top: 0;
+  }
+  
+  .registration-form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+  .event-image {
+    width: 40%; 
+    margin-right: 200 px;
+    padding: 50px;
+  }
+  
+  .event-details {
+    flex:content;
+  }
+  
+  h3 {
+    margin-top: 0;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #197be4;
+  }
+  
